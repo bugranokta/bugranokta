@@ -1,0 +1,8 @@
+import random
+k = "abcdefgğhıijklmnoöprsştuüvyzABCDEFFGĞHIİJKLMNOÖPRSŞTUÜVYZ1234567890.,!'^+%&/()=?_-£#$½}*|@€"
+u = int(input("şifre ne kadar uzun olsun"))
+ş = ""
+
+for i in range(u):
+    ş += random.choice(k)
+print(ş)
